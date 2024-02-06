@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-// #include <conio.h>
+#include <conio.h>
 #define MAX 10
 int main()
 {
@@ -8,8 +8,6 @@ int main()
     float x[MAX], y[MAX], u[MAX];
     float sumx = 0.0, sumu = 0.0, sumxx = 0.0, sumxu = 0.0, xmean, umean, denom, a, b;
     // Reading data values//
-
-    printf("Fitting an exponential EQN \n");
     printf("Input number of data points:");
     scanf("%d", &n);
     printf("\n Input x and y values(one set on each line):");
@@ -31,6 +29,6 @@ int main()
     b = (n * sumxu - sumx * sumu) / denom;
     a = exp(umean - b * xmean);
     printf("\n The exponential equation that is fit to the given data is y = %fe^%fx.", a, b);
-    // getch();
+    getch();
     return 0;
 }

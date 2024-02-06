@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 #include <math.h>
 #define MAX 10
 
@@ -53,7 +54,6 @@ int main()
 {
     int n, mp, m, i;
     float x[MAX], y[MAX], c[MAX][MAX], a[MAX], b[MAX];
-    printf("Fitting a polynomial equation ");
     printf("\nInput number of data points:");
     scanf("%d", &n);
     printf("\n Input degree of required polynomial: ");
@@ -76,6 +76,6 @@ int main()
     printf("\n Polynomial coefficients \n\n");
     for (i = 1; i <= m; i++)
         printf("%15.6f", a[i]);
-    // getch();
+    getch();
     return 0;
 }

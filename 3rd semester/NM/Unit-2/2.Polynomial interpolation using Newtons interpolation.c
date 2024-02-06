@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <math.h>
-// #include <conio.h>
+#include <conio.h>
 #define MAX 15
 int main()
 {
     int i, j, n;
     float xp, fp, sum, pi, x[MAX], f[MAX], a[MAX], d[MAX][MAX];
-    char q;
-    printf("Netwon's Interpolation");
+
     printf("\nInput the number of data pairs:");
     scanf("%d", &n);
     printf("\nInput data pairs x(i) and values f(i) (one set in each line):");
@@ -38,6 +37,6 @@ int main()
     // write results//
     printf("\n Interpolated function value at x=%f is %f.", xp, fp);
 
-    // getch();
+    getch();
     return 0;
 }

@@ -5,14 +5,13 @@
 
 float g(float x)
 {
-    return (5 + 0.5 * sin(x));
+    return (cos(x)+3)/2;
 }
 
 int main()
 {
     float x0, x1;
     int n = 1;
-    printf("Fixed Point Iteration Method\n");
     printf("Enter an initial point x0 : ");
     scanf("%f", &x0);
     x1 = g(x0);
@@ -26,6 +25,6 @@ int main()
     }
 
     printf("The approximate root  is %f with %d  iterations.", x1, n);
-    //  getch();
+     getch();
     return 0;
 }

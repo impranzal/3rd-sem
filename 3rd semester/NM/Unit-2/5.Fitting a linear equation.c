@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-// #include <conio.h>
+#include <conio.h>
 #define MAX 10
 
 int main()
@@ -13,7 +13,6 @@ int main()
     float sumx = 0.0, sumy = 0.0, sumxx = 0.0, sumxy = 0.0, xmean, ymean, denom, a, b;
 
     // Reading data values
-    printf("Fitting a linear equation : ");
     printf("\n Input the number of data points: ");
     scanf("%d", &n);
     printf("\n Input x and y values (one set on each line): \n");
@@ -35,6 +34,6 @@ int main()
     b = (n * sumxy - sumx * sumy) / denom;
     a = ymean - b * xmean;
     printf("\n The line that is fit to the given data is y = %f + %fx.", a, b);
-    // getch();
+    getch();
     return 0;
 }

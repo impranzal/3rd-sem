@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-// #include<conio.h>
+#include<conio.h>
 #define EPS 0.00001
 void horner(int n, float a[], float x0, float p[])
 {
@@ -38,6 +38,6 @@ int main()
         x1 = x0 - (p[0] / p[1]);
     }
     printf("\n The approximate root is %f with %d iterations.", x1, count);
-    // getch();
+     getch();
     return 0;
 }

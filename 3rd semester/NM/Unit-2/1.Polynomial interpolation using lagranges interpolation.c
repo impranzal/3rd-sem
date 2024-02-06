@@ -1,14 +1,12 @@
 #include <stdio.h>
 #include <math.h>
-// #include <conio.h>
+#include <conio.h>
 #define MAX 15
 
 int main()
 {
     int n, i, j;
     float x[MAX], f[MAX], fp, lf, sum, xp;
-    char q;
-    printf("Lagrange's Method");
     printf("\n Input the number of data pairs: ");
     scanf("%d", &n);
     printf("\nInput data pairs x(i) and values f(i) (one set in each line):\n");
@@ -32,6 +30,6 @@ int main()
     fp = sum;
     printf("\n Interpolated function value at x = %f is %f.", xp, fp);
 
-    // getch();
+    getch();
     return 0;
 }

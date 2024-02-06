@@ -1,14 +1,12 @@
 #include <stdio.h>
 #include <math.h>
-// #include <conio.h>
+#include <conio.h>
 #define MAX 15
 
 int main()
 {
     int n, i, j, k;
     float x[MAX], fx[MAX], bd[MAX], xp, s, h, v, p;
-    char q;
-    printf("Backward Difference");
     printf("\nInput the number of data pairs:");
     scanf("%d", &n);
     printf("\nInput data pairs x(i) and values f(i) (one set in each line):\n");
@@ -38,5 +36,6 @@ int main()
 
     printf("\nInterpolated function value at x=%f is %f.", xp, v);
 
-    // getch();
+    getch();
+    return 0;
 }
