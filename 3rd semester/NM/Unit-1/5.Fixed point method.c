@@ -5,7 +5,9 @@
 
 float g(float x)
 {
-    return (cos(x)+3)/2;
+   // return (cos(x)+3)/2;
+   //return (7 + log10(x)) / 2;
+     return 1 / sin(x);
 }
 
 int main()

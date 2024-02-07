@@ -18,8 +18,6 @@ int main()
     float a[10], p[2], x0, x1;
     // p[0] and p[1] stores the value of the polynomial and its derivative at x0 respectively
     int i, n, count = 1;
-
-    printf("Horner's Method\n");
     printf("Enter the degree of the polynomial : ");
     scanf("%d", &n);
     printf("\nEnter the coefficients of the polynomial starting from the hightest degree: ");
