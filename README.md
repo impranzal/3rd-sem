@@ -28,4 +28,4 @@ Contributions are welcome! If you have solutions for any labs that are not alrea
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE), attributed to Nishan Dhakal.
+This repository is licensed under the [MIT License](https://github.com/nishan023/3rd-sem/blob/master/LICENSE), attributed to Nishan Dhakal.
