@@ -11,7 +11,7 @@ This repository contains the code solutions for the various lab assignments unde
 Below is the list of labs included in this repository:
 
 1. [Computer Architecture (CA)](CA)
-2. [Numerical Methods (NM)](NM)
+2. [Numerical Methods (NM)](https://github.com/nishan023/3rd-sem/tree/master/3rd%20semester/NM)
 3. [Computer Graphics (CG)](CG)
 4. [Data Structures and Algorithms (DSA)](DSA)
 5. [Statistics - II](Statistics-II)
