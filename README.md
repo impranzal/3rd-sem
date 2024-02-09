@@ -20,20 +20,11 @@ Each lab folder contains the code files and any additional resources related to 
 
 ## Outputs
 
-### [Computer Architecture (CA)](CA)
-- 
-
-### [Numerical Methods (NM)](https://github.com/nishan023/3rd-sem/tree/master/3rd%20semester/NM)
-- 
-
-### [Computer Graphics (CG)](CG)
-- 
-
-### [Data Structures and Algorithms (DSA)](DSA)
-- 
-
-### [Statistics - II](Statistics-II)
-- 
+1. [Computer Architecture (CA)](CA)
+2. [Numerical Methods (NM)](https://github.com/nishan023/3rd-sem/tree/master/3rd%20semester/NM)
+3. [Computer Graphics (CG)](CG)
+4. [Data Structures and Algorithms (DSA)](DSA)
+5. [Statistics - II](Statistics-II)
 
 ## How to Use
 
