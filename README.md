@@ -18,6 +18,23 @@ Below is the list of labs included in this repository:
 
 Each lab folder contains the code files and any additional resources related to that lab.
 
+## Outputs
+
+### [Computer Architecture (CA)](CA)
+- 
+
+### [Numerical Methods (NM)](https://github.com/nishan023/3rd-sem/tree/master/3rd%20semester/NM)
+- 
+
+### [Computer Graphics (CG)](CG)
+- 
+
+### [Data Structures and Algorithms (DSA)](DSA)
+- 
+
+### [Statistics - II](Statistics-II)
+- 
+
 ## How to Use
 
 To access the code for a specific lab, navigate to the respective lab folder and find the relevant files.
