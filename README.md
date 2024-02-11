@@ -15,7 +15,7 @@ Below is the list of labs included in this repository:
 | Computer Architecture(CA)  | **[Click Here](CA)**                                     | **[Click Here ](CA)**                                                                                                                       |
 | Numerical Methods(NM)      | **[Click Here](https://github.com/nishan023/3rd-sem/tree/master/NM)**| **[Click Here ](https://drive.google.com/drive/folders/1ILYqwwyfQ18JpN10gr7b-mXv-OY8QHK2?usp=sharing)**                              |
 | Computer Graphics(CG)     | **[Click Here](CG)**                                         | **[Click Here ](CG)**                                                                                                                       |
-| Data Structures and Algorithms(DSA) | **[Click Here](DSA)**                          | **[Click Here](DSA)**                                                                                                                      |
+| Data Structures and Algorithms(DSA) | **[Click Here](https://github.com/nishan023/3rd-sem/tree/master/DSA)**                          | **[Click Here](DSA)**                                                                                                                      |
 | Statistics - II (STAT-II)      | **[Click Here](Statistics-II)**                               | **[Click Here](Statistics-II)**                                                                                                    |
 
 Each lab folder contains the code files and any additional resources related to that lab.
