@@ -5,7 +5,7 @@ int main()
 	int gd = DETECT, gm;
 	initgraph(&gd, &gm, "");
 	setcolor(RED);
-	outtextxy(100, 100, "Suresh Shahi...");
+	outtextxy(100, 100, "Nishan Dhakal...");
 	getch();
 	closegraph();
 }
