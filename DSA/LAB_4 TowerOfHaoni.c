@@ -1,11 +1,11 @@
-//LAB 4: Write a recursive program to print the moves in Tower of Hanoi for input no of disk
+// LAB 4: Write a recursive program to print the moves in Tower of Hanoi for input no of disk
 #include <stdio.h>
 int toh(int n, char A, char B, char C);
 
-void output(int n,char A, char C)
+void output(int n, char A, char C)
 {
     static int count = 1;
-    printf("%d. Move disc %d from %c to %c\n",count,n, A, C);
+    printf("%d. Move disc %d from %c to %c\n", count, n, A, C);
     count++;
 }
 int main()
@@ -22,40 +22,12 @@ int toh(int n, char A, char B, char C)
 {
     if (n == 1)
     {
-        output(1,A, C);
+        output(1, A, C);
     }
     else
     {
         toh(n - 1, A, C, B);
-        output(n,A, C);
+        output(n, A, C);
         toh(n - 1, B, A, C);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

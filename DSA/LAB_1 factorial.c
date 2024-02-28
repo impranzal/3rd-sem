@@ -1,4 +1,4 @@
-//LAB 1: write a recursive program to find the factorial of given input
+// LAB 1: write a recursive program to find the factorial of given input
 #include <stdio.h>
 int factorial(int n);
 int main()

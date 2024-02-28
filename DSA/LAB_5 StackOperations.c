@@ -1,7 +1,7 @@
 // LAB 5: Write a menu based program to simulate the basic operations of stack
 #include <stdio.h>
 #include <stdlib.h>
-#define MAX_SIZE 10
+#define MAX_SIZE 3
 int stack[MAX_SIZE];
 int top = -1;
 int push(int element);
@@ -14,7 +14,7 @@ int main()
 
     while (1)
     {
-        printf("\nStack Operations Menu:\n");
+        printf("\n****Stack Operations Menu****\n");
         printf("1. Push\n");
         printf("2. Pop\n");
         printf("3. Display\n");

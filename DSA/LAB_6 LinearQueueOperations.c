@@ -1,13 +1,10 @@
 // LAB 6:Write a menu driven program to simulate the operation in linear queue.
 #include <stdio.h>
 #include <stdlib.h>
-
-#define MAX_SIZE 2
-
+#define MAX_SIZE 3
 int queue[MAX_SIZE];
 int front = -1;
 int rear = -1;
-
 void enqueue(int element);
 int dequeue();
 void display();
@@ -18,7 +15,7 @@ int main()
 
     while (1)
     {
-        printf("\nLinear Queue Operations Menu:\n");
+        printf("\n****Linear Queue Operations Menu****\n");
         printf("1. Enqueue\n");
         printf("2. Dequeue\n");
         printf("3. Display\n");
