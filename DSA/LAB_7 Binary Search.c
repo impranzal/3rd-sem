@@ -40,7 +40,7 @@ int main() {
         printf("Do you want to continue(y/n)?");
         fflush(stdin);
         char choice;
-        scanf(" %c", &choice); // Note the space before %c to consume the newline
+        scanf(" %c", &choice); 
         if (choice != 'y' && choice != 'Y')
             break;
     }
