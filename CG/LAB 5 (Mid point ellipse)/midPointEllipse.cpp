@@ -34,7 +34,7 @@ int main()
         }
         delay(50);
     }
-    // p = pow(Yr, 2) * pow((x + 1 / 2), 2) + pow(Xr, 2) * pow((y - 1), 2) - pow(Xr, 2) * pow(Yr, 2);
+
     p = Yr * Yr * (x + 1 / 2) * (x + 1 / 2) + Xr * Xr * (y - 1) * (y - 1) - Xr * Xr * Yr * Yr;
     while (y >= 0)
     {
