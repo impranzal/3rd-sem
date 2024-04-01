@@ -1,39 +1,68 @@
 #include <stdio.h>
-void bubbleSort(int array[], int size);
-int main()
-{
-    int array[10], size;
-    printf  ("\t******BUBBLE SORT ALGORITHM ******\n\n");
-    printf("Enter number of elements: ");
-    scanf("%d", &size);
 
-    printf("Enter %d integers:\n", size);
+int bubbleSort(int A[], int n, int choice) {
+    for (int i = 0; i < n - 1; i++) {
+        printf("Pass %d:\n", i + 1);
+        for (int i = 0; i < n; i++) {
+            printf("%d, ", A[i]);
+        }
+        printf("\n");
 
-    for (int i = 0; i < size; i++)
-    {
-        scanf("%d", &array[i]);
+        // Bubble sort logic
+        for (int j = 0; j < n - i - 1; j++) {
+            if (choice == 1) { // Ascending
+                if (A[j] > A[j + 1]) {
+                    int temp = A[j];
+                    A[j] = A[j + 1];
+                    A[j + 1] = temp;
+                }
+            } else { // Descending
+                if (A[j] < A[j + 1]) {
+                    int temp = A[j];
+                    A[j] = A[j + 1];
+                    A[j + 1] = temp;
+                }
+            }
+            for (int j = 0; j < n; j++) {
+                printf("%d, ", A[j]);
+            }
+            printf("\n");
+        }
+        printf("\n");
     }
-    bubbleSort(array, size);
-    printf("Sorted list in ascending order:\n");
-    for (int i = 0; i < size; i++)
-    {
-        printf("%d\t", array[i]);
+    printf("\n\nThe sorted data is:\n");
+    for (int i = 0; i < n; i++) {
+        printf("%d\t ", A[i]);
     }
-    return 0;
+    printf("\n");
 }
 
-void bubbleSort(int array[], int size)
-{
-    for (int i = 0; i < size - 1; i++)
-    {
-        for (int j = 0; j < size - i - 1; j++)
-        {
-            if (array[j] > array[j + 1])
-            {
-                int temp = array[j];
-                array[j] = array[j + 1];
-                array[j + 1] = temp;
-            }
-        }
+int main() {
+    printf("****BUBBLE SORT ALGORITHM******\n");
+    printf("Enter the no. of terms to be sorted: ");
+    int terms;
+    scanf("%d", &terms);
+    int numbers[terms];
+    printf("Enter the numbers to be sorted: ");
+    for (int i = 0; i < terms; i++) {
+        scanf("%d", &numbers[i]);
     }
+    
+    printf("\nThe original data is:\n");
+    for (int i = 0; i < terms; i++) {
+        printf("%d\t ", numbers[i]);
+    }
+    
+    int choice;
+    printf("\nChoose sorting order (1 for Ascending, 2 for Descending): ");
+    scanf("%d", &choice);
+
+    if (choice == 1)
+        bubbleSort(numbers, terms, 1);
+    else if (choice == 2)
+        bubbleSort(numbers, terms, 2);
+    else
+        printf("\nInvalid option selected.");
+
+    return 0;
 }
