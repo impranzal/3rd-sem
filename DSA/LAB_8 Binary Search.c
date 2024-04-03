@@ -1,46 +1,47 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 int number[50];
-
-int binarySearch(int A[], int l, int r, int key) {
-    if (l <= r) {
+int binarySearch(int A[], int l, int r, int key)
+{
+    if (l <= r)
+    {
         int mid = (l + r) / 2;
         if (A[mid] == key)
-            return mid; // Return the index where key is found
+            return mid;
         else if (A[mid] < key)
             return binarySearch(A, mid + 1, r, key);
         else
             return binarySearch(A, l, mid - 1, key);
     }
-    return -1; // Return -1 if key is not found
+    return -1;
 }
 
-int main() {
+int main()
+{
     int total;
+    printf("\t******BINARY SEARCH ALGORITHM ******\n\n");
     printf("Enter the total no. of data:");
     scanf("%d", &total);
     printf("\nEnter the data now (Ascending order only):\n");
-    for (int i = 0; i < total; i++) {
+    for (int i = 0; i < total; i++)
+    {
         scanf("%d", &number[i]);
     }
-    while (1) {
-        // logic starts from here
+    while (1)
+    {
         printf("\nEnter the number to be searched on the array: ");
         int temp;
         scanf("%d", &temp);
-
-        // binary search starts here
         int index = binarySearch(number, 0, total - 1, temp);
         if (index != -1)
-            printf("Search is found at position %d.\n", index + 1);
+            printf("Search is found at index %d.\n", index);
         else
             printf("Search is not found.\n");
 
         printf("Do you want to continue(y/n)?");
         fflush(stdin);
         char choice;
-        scanf(" %c", &choice); 
+        scanf(" %c", &choice);
         if (choice != 'y' && choice != 'Y')
             break;
     }
