@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <math.h>
-
 float f(float x)
 {
     return exp(-x * x);
