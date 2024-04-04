@@ -9,7 +9,7 @@ int main()
     int i, j, k, n, count = 0;
     float ev = 1.0, ev_temp, temp_max, a[MAX][MAX], x[MAX], y[MAX];
 
-    printf("Eigen Value & vector Power Method");
+    printf("\t\t******Eigen Value & vector Power Method******\n");
     printf("\nInput size of matrix: ");
     scanf(" %d", &n);
     printf("\nInput elements row-wise : ");

@@ -10,7 +10,7 @@ int main()
 
     int i, j, n, key, count = 0;
     float a[MAX][MAX], b[MAX], x[MAX], sum, dummy;
-    printf("Gauss-Siedel Iterative Method");
+    printf("\t\t******Gauss-Siedel Iterative Method******\n");
     printf("\n Input number of variables: ");
     scanf("%d", &n);
     printf("\n Input coefficients row-wise :");

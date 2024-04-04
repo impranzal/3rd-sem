@@ -77,7 +77,7 @@ int main()
 {
     int i, j, n;
     float a[MAX][MAX], b[MAX], x[MAX];
-    printf("Gaussian Elimination with Partial Pivoting");
+    printf("\t\t******Gaussian Elimination with Partial Pivoting******\n");
     printf("\nInput number of variables: ");
     scanf("%d", &n);
     printf("\nInput coefficients row-wise : \n");

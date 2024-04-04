@@ -8,7 +8,7 @@ int main()
 {
     int i, j, k, n, pivrow;
     float a[MAX][MAX], b[MAX], large, temp, factor, pivot;
-    printf("Gauss-Jordan Method with partial Pivoting");
+    printf("\t\t******Gauss-Jordan Method with partial Pivoting******\n");
     printf("\nInput number of variables: ");
     scanf("%d", &n);
     printf("\nInput coefficients row-wise : ");
