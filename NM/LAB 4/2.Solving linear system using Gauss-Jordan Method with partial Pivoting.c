@@ -1,6 +1,4 @@
-
 // Solving linear system using Gauss-Jordan Method with partial Pivoting
-
 #include <stdio.h>
 #include <math.h>
 #define MAX 10
