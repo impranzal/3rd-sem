@@ -3,7 +3,8 @@
 
 float f(float x)
 {
-    return exp(x) * sqrt(sin(x) + log(x));
+    // return exp(x) * sqrt(sin(x) + log(x));
+    return cos(x) * exp(-pow(x, 2));
 }
 
 int main()

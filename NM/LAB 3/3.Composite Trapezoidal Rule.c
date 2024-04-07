@@ -2,7 +2,8 @@
 #include <math.h>
 float f(float x)
 {
-    return exp(-x * x);
+    // return exp(-x * x);
+    return sin(x);
 }
 
 int main()
