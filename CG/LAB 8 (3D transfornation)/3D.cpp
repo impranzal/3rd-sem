@@ -2,15 +2,6 @@
 #include <math.h>
 #include <iostream>
 using namespace std;
-// bar3d function in c
-// Declaration: void bar3d(int left, int top, int right, int bottom, int depth, int topflag);
-// bar3d function is used to draw a 2-dimensional, rectangular filled in bar .
-// Coordinates of left top and right bottom corner of bar are required to draw the bar.
-// left specifies the X-coordinate of top left corner, top specifies the Y-coordinate of top left corner,
-// right specifies the X-coordinate of right bottom corner, bottom specifies the Y-coordinate of right bottom corner,
-// depth specifies the depth of bar in pixels, topflag determines whether a 3 dimensional top is put on the bar or not
-//( if it's non-zero then it's put otherwise not ). Current fill pattern and fill color is used to fill the bar.
-// To change fill pattern and fill color use setfillstyle.
 void display(int x1, int y1, int x2, int y2, int z)
 {
     int xmid = getmaxx() / 2;
