@@ -5,13 +5,14 @@
 
 float f(float x, float y)
 {
+    // return 2 * x*y;
     return 2 * y / x;
 }
 int main()
 {
     int i, n;
     float x, y, xp, h, m1, m2;
-    printf("Heun's method");
+    printf("\t\t******Heun's method******\n");
     printf("\nInput initial values of x and y: ");
     scanf("%f%f", &x, &y);
     printf("\nInput x at which y is required: ");
@@ -27,7 +28,7 @@ int main()
         y = y + 0.5 * h * (m1 + m2);
         // printf("\n%d \t %f \t %f\n", i, x, y);
     }
-    printf("\nValue of y at Ã— = %f is %fn", x, y);
+    printf("\nValue of y at A = %f is %f", x, y);
 
     return 0;
 }

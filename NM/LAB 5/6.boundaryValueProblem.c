@@ -12,7 +12,8 @@ float f1(float x, float y1, float y2)
 
 float f2(float x, float y1, float y2)
 {
-    return 2 * x * x * y1 + 1;
+    // return 2 * x * x * y1 + 1;
+    return 4 * x * x * x * y1 + 2;
 }
 
 float heun(float x0, float x1, float y0, float y1, float h)
@@ -35,7 +36,7 @@ int main()
 {
     float x0, yx0, x1, yx1, guess1, guess2, guess3, yxp, h, xp;
     char q;
-    printf("BVP-Shooting Method:\n");
+    printf("\t\t******BVP-Shooting Method******\n");
     printf("\n Enter the first boundary conditions x and y(x): ");
     scanf("%f%f", &x0, &yx0);
     printf("\n Enter the second boundary conditions x and y(x): ");

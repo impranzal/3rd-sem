@@ -5,7 +5,8 @@
 
 float f(float x, float y)
 {
-    return y * cos(x);
+    // return y * cos(x);
+    return x + y;
 }
 
 int main()
@@ -13,7 +14,7 @@ int main()
     int i, n;
     float x, y, xp, h, m1, m2, m3, m4;
 
-    printf("Runge Kutta Method");
+    printf("\t\t******Runge Kutta Method******\n");
     printf("\nInput initial values of x and y: ");
     scanf("%f%f", &x, &y);
     printf("\nInput x at which y is required: ");

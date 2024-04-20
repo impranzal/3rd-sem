@@ -11,7 +11,8 @@ float f1(float x, float y1, float y2)
 
 float f2(float x, float y1, float y2)
 {
-    return 6 * x - 2 * y2 + 3 * y1; // Corrected the equation based on provided code
+    // return 6 * x - 2 * y2 + 3 * y1; // Corrected the equation based on provided code
+    return 8 * x - 4 * y2 - 5 * y1;
 }
 
 // Routine for Heun's method
@@ -37,7 +38,7 @@ int main()
 {
     float x0, yx0, yx1, xp, yxp, h;
     char q;
-    printf("Solving 2nd order IVP");
+    printf("\t\t******Solving 2nd order IVP******\n");
     printf("\n Enter the initial point x: ");
     scanf("%f", &x0);
     printf("\n Enter the value of y(x): ");

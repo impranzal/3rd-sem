@@ -6,11 +6,13 @@
 #define EPS 0.00001
 float f1(float x, float y1, float y2)
 {
-    return x + y1 + y2;
+    // return x + y1 + y2;
+    return y2 + x * y1 + y1;
 }
 float f2(float x, float y1, float y2)
 {
-    return 1 + y1 + y2;
+    // return 1 + y1 + y2;
+    return y1 * y2 + x * x + 1;
 }
 // Routine for Heun's method
 void heun(float x0, float x1, float y0, float y1, float h)
@@ -36,7 +38,7 @@ int main()
 {
     float x0, yx0, yx1, xp, h;
     char q;
-    printf("Solving System of Differential equation");
+    printf("\t\t******Solving System of Differential equation******\n");
     printf("\n Enter the initial point x: ");
     scanf("%f", &x0);
     printf("\n Enter the value of y_1(x): ");
@@ -53,4 +55,3 @@ int main()
 
     return 0;
 }
-

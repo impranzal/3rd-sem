@@ -5,13 +5,14 @@
 
 float f(float x, float y)
 {
-    return 2 * y / x;
+    // return 2 * y / x;
+    return 3 * x + y / 2;
 }
 int main()
 {
     int i, n;
     float x, y, xp, h, dy;
-    printf("Eulers method");
+    printf("\t\t******Eulers method******\n");
     printf("\nInput initial values of x and y:");
     scanf("%f%f", &x, &y);
     printf("\nInput x at which y is required:");
