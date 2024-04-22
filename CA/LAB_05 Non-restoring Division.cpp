@@ -59,12 +59,12 @@ void nonresdiv() {
 
 int main() {
     cout<<"\t\t******NON-RESTORING DIVISION******\n\n";
-    cout << "Enter dividend in binary form (4 bits): ";
+    cout << "Enter dividend in binary form (4 bits):\n ";
     for (int i = 0; i < 4; i++) {
         cin >> q[i];
     }
 
-    cout << "Enter divisor in binary form (5 bits): ";
+    cout << "Enter divisor in binary form (5 bits):\n ";
     for (int i = 0; i < 5; i++) {
         cin >> b[i];
     }

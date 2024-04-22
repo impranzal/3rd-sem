@@ -10,7 +10,7 @@ void binary()
 {
     b1 = fabs(b);
     q1 = fabs(q);
-    int r1, r2, i, temp;
+    int r1, r2, i;
     for (i = 0; i < 4; i++)
     {
         r1 = b1 % 2;
