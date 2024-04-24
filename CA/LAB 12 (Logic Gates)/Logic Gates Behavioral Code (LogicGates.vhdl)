@@ -6,8 +6,7 @@ entity LogicGates is
            b : in  STD_LOGIC;
            y_and : out  STD_LOGIC;
            y_or : out  STD_LOGIC;
-           y_not : out  STD_LOGIC;
-           y_xor : out  STD_LOGIC);
+           y_not : out  STD_LOGIC);
 end LogicGates;
 
 architecture Behavioral of LogicGates is
@@ -20,8 +19,5 @@ begin
     
     -- NOT gate
     y_not <= not a;
-    
-    -- XOR gate
-    y_xor <= a xor b;
     
 end Behavioral;

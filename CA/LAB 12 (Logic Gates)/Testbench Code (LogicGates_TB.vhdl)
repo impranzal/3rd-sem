@@ -12,8 +12,7 @@ ARCHITECTURE behavior OF LogicGates_TB IS
          b : IN  std_logic;
          y_and : OUT  std_logic;
          y_or : OUT  std_logic;
-         y_not : OUT  std_logic;
-         y_xor : OUT  std_logic
+         y_not : OUT  std_logic
         );
     END COMPONENT;
     
@@ -25,7 +24,6 @@ ARCHITECTURE behavior OF LogicGates_TB IS
     signal y_and : std_logic;
     signal y_or : std_logic;
     signal y_not : std_logic;
-    signal y_xor : std_logic;
 
 BEGIN 
     -- Instantiate the Logic Gates component
@@ -34,8 +32,7 @@ BEGIN
           b => b,
           y_and => y_and,
           y_or => y_or,
-          y_not => y_not,
-          y_xor => y_xor
+          y_not => y_not
         );
 
    -- Stimulus process
