@@ -1,4 +1,4 @@
-# BSc CSIT 3rd Semester Labs Repository
+t# BSc CSIT 3rd Semester Labs Repository
 
 Welcome to the repository for the code of all the labs done during the third semester of BSc CSIT.
 
@@ -16,7 +16,7 @@ Below is the list of labs included in this repository:
 | Numerical Methods(NM)      | **[Click Here](https://github.com/nishan023/3rd-sem/tree/master/NM)**| **[Click Here ](https://drive.google.com/drive/folders/1ILYqwwyfQ18JpN10gr7b-mXv-OY8QHK2?usp=sharing)**                              |
 | Computer Graphics(CG)     | **[Click Here](https://github.com/nishan023/3rd-sem/tree/master/CG)**                                         | **[Click Here ](https://drive.google.com/drive/folders/1o-8iP_xRatNx1UgJWnwl-DzK0mXgmZcA?usp=sharing)**                                                                                                                       |
 | Data Structures and Algorithms(DSA) | **[Click Here](https://github.com/nishan023/3rd-sem/tree/master/DSA)**                          | **[Click Here](https://drive.google.com/drive/folders/1obwIVXNBBppQDXwwXUJ5l5SxjP-D3NGS?usp=sharing)**                                                                                                                      |
-| Statistics - II (STAT-II)      | **[Click Here](Statistics-II)**                               | **[Click Here](Statistics-II)**                                                                                                    |
+| Statistics - II (STAT-II)      | **[Click Here](Statistics-II)**                               | **[Click Here](https://drive.google.com/drive/folders/1AwhaBz7afj7Jju-VNbQKlic7irTp7Rfj?usp=sharing)**                                                                                                    |
 
 Each lab folder contains the code files and any additional resources related to that lab.
 
