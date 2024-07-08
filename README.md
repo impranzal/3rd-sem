@@ -1,4 +1,4 @@
-t# BSc CSIT 3rd Semester Labs Repository
+# BSc CSIT 3rd Semester Labs Repository
 
 Welcome to the repository for the code of all the labs done during the third semester of BSc CSIT.
 
