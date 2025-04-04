@@ -11,7 +11,7 @@ int main() {
     printf("\nInput the number of data pairs: ");
     scanf("%d", &n);
 
-    printf("\nInput data pairs x(i) and values f(i) (one set in each line):");
+    printf("\nInput data pairs x(i) and values f(i): ");
     for (i = 1; i <= n; i++)
         scanf("%f %f", &x[i], &f[i]);
 

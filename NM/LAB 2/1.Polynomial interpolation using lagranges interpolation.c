@@ -10,11 +10,11 @@ int main() {
     scanf("%d", &n);
 
     if (n > MAX || n <= 0) {
-        printf("\n Invalid input. Number of data pairs should be between 1 and %d.\n", MAX);
+        printf("\n Invalid input.\n");
         return 1;
     }
 
-    printf("\nInput data pairs x(i) and values f(i) (one set in each line):\n");
+    printf("\nInput data pairs x(i) and values f(i): ");
     for (i = 0; i < n; i++)
         scanf("%f%f", &x[i], &f[i]);
 
